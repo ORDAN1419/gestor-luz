@@ -60,12 +60,8 @@ export default function RootLayout({
     <html lang="es-PE">
       <head>
         {/* Código de Google AdSense */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2304571924029041"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2304571924029041"
+          crossOrigin="anonymous"></script>
       </head>
       <body className={inter.className}>
         {children}
