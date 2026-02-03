@@ -1,15 +1,10 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { Zap, AlertTriangle, ArrowRight, BookOpen, Scale, Shield, Check } from 'lucide-react'
 import CalculatorForm from './CalculatorForm'
-import Breadcrumbs from './Breadcrumbs'
 
 export default function PublicLanding() {
   return (
     <main className="min-h-screen bg-slate-50 flex flex-col items-center py-12 px-4 font-sans text-slate-900">
-      {/* Breadcrumbs para SEO */}
-      <Breadcrumbs />
-      
       <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
         <div className="bg-white shadow-2xl rounded-[3rem] p-10 border border-slate-100 flex flex-col justify-between">
           <div>
@@ -49,7 +44,7 @@ export default function PublicLanding() {
             <div className="relative z-10">
               <h2 className="text-2xl font-black mb-10 flex items-center gap-3">
                 <span className="w-1 h-8 bg-yellow-400 rounded-full"></span> 
-                Tarifas Oficiales de Luz en Perú 2026
+                El calculo se hace mediante esta tarifa por defecto
               </h2>
               <div className="space-y-4">
                 {[
@@ -77,20 +72,13 @@ export default function PublicLanding() {
             </div>
           </div>
           
-          {/* Imagen optimizada para SEO */}
-          <div className="relative h-48 rounded-[2.5rem] overflow-hidden">
-            <Image
-              src="/ahorro-energia-peru.jpg"
-              alt="Familia peruana ahorrando energía eléctrica con calculadora de luz"
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 50vw"
-              priority={false}
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-              <p className="text-white text-sm font-bold">
-                Ahorra hasta 30% en tu recibo de luz con nuestros consejos
-              </p>
+          {/* Sección de ahorro */}
+          <div className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-[2.5rem] p-8 text-white h-48 flex flex-col justify-center">
+            <div className="text-center">
+              <div className="text-4xl mb-2">💡</div>
+              <h3 className="text-lg font-black mb-2">Ahorra en tu Recibo de Luz</h3>
+              <p className="text-sm opacity-90">Calculadora precisa para Perú 2026</p>
+              <p className="text-xs opacity-70 mt-2">Hasta 30% de ahorro mensual</p>
             </div>
           </div>
         </div>
@@ -242,7 +230,7 @@ export default function PublicLanding() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
             <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-2">
-              © 2026 Gestor de Luz Perú - Paita, Piura, Perú
+              © 2026 Gestor de Luz Perú - por
             </p>
             <p className="text-[9px] text-slate-500">
               Herramienta gratuita para calcular y optimizar consumo eléctrico
@@ -275,10 +263,10 @@ export default function PublicLanding() {
         </div>
         
         {/* Enlaces internos para SEO */}
-        <div className="mt-8 flex flex-wrap gap-4 justify-center">
+         {/* <div className="mt-8 flex flex-wrap gap-4 justify-center">
           <span className="text-[8px] text-slate-400">También útil:</span>
           <Link href="/como-ahorrar-luz" className="text-[8px] text-blue-500 hover:underline">
-            Cómo ahorrar luz
+           Cómo ahorrar luz
           </Link>
           <Link href="/tarifas-electricas-peru" className="text-[8px] text-blue-500 hover:underline">
             Tarifas eléctricas Perú
@@ -289,7 +277,7 @@ export default function PublicLanding() {
           <Link href="/calcular-consumo-kwh" className="text-[8px] text-blue-500 hover:underline">
             Calcular consumo kWh
           </Link>
-        </div>
+        </div> */}
       </footer>
     </main>
   )

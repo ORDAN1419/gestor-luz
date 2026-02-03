@@ -57,7 +57,7 @@ export default function PrivacidadPage() {
 
           <div className="mt-12 pt-8 border-t border-slate-100 text-center">
             <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
-              © 2024 Gestor de Luz - Paita, Piura, Perú
+              © 2026 Gestor de Luz - por AvNetWok AV
             </p>
           </div>
         </div>
