@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Script from 'next/script' // Importamos el componente para scripts
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -45,7 +46,8 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "google-site-verification=GGh6PmA7iA7vk3AlUnrZU3bX0kI9zMPaa6mlpY4AhlA",
+    // Corregido: Solo el código alfanumérico
+    google: "GGh6PmA7iA7vk3AlUnrZU3bX0kI9zMPaa6mlpY4AhlA",
   }
 }
 
@@ -56,6 +58,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es-PE">
+      <head>
+        {/* Código de Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2304571924029041"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className={inter.className}>
         {children}
       </body>
