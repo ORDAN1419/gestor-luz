@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard/
+Disallow: /perfil/
+Disallow: /api/
+Disallow: /admin/
+
+Crawl-delay: 2
+
+Sitemap: https://tudominio.com/sitemap.xml
