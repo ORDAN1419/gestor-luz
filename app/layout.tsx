@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_PE",
-    url: "https://tudominio.com",
+    url: "https://gestorluz.com",
     title: "Calculadora de Luz Perú - Ahorra hasta 30% en tu Factura Eléctrica",
     description: "Calcula, monitorea y reduce tu consumo de luz. Herramienta gratuita para hogares y negocios en Perú.",
     images: [
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "tu-codigo-verificacion-google",
+    google: "google-site-verification=GGh6PmA7iA7vk3AlUnrZU3bX0kI9zMPaa6mlpY4AhlA",
   }
 }
 

@@ -4,7 +4,10 @@ Disallow: /dashboard/
 Disallow: /perfil/
 Disallow: /api/
 Disallow: /admin/
+Disallow: /login/
 
-Crawl-delay: 2
+# Específicamente para que AdSense pueda revisar tu contenido público
+User-agent: Mediapartners-Google
+Allow: /
 
-Sitemap: https://tudominio.com/sitemap.xml
+Sitemap: https://gestorluz.com/sitemap.xml
