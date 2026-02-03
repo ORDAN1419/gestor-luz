@@ -48,7 +48,7 @@ export default function LoginPage() {
     <main className="min-h-screen bg-slate-50 flex items-center justify-center px-4">
       <div className="max-w-md w-full bg-white shadow-2xl rounded-3xl p-8 border border-slate-100">
         <h1 className="text-3xl font-black text-slate-800 mb-2 text-center">Bienvenido</h1>
-        <p className="text-slate-500 text-center mb-8 font-medium">Gestiona tu consumo eléctricoA</p>
+        <p className="text-slate-500 text-center mb-8 font-medium">Gestiona tu consumo eléctrico</p>
         
         <div className="space-y-4">
           <div className="group">
@@ -97,7 +97,7 @@ export default function LoginPage() {
         )}
 
         <div className="mt-8 pt-6 border-t border-slate-100">
-          <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest text-center mb-2">Conexión Segura con VPS vmsupabase</p>
+          <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest text-center mb-2">Conexión Segura</p>
           
           <div className="flex items-center justify-center gap-2">
             {/* Contenedor del logo del zorro */}
