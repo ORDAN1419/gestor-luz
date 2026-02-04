@@ -10,7 +10,7 @@ export default function SchemaMarkup() {
                         "@type": "WebApplication",
                         "name": "Calculadora de Luz Perú 2026",
                         "description": "Calculadora gratuita para estimar recibos de electricidad en Perú con precisión. Ahorra en tu factura de luz.",
-                        "url": "https://tudominio.com",
+                        "url": "https://www.gestorluz.com",
                         "applicationCategory": "FinanceApplication",
                         "operatingSystem": "Any",
                         "offers": {
@@ -22,8 +22,8 @@ export default function SchemaMarkup() {
                         "author": {
                             "@type": "Organization",
                             "name": "Gestor de Luz Perú",
-                            "url": "https://tudominio.com",
-                            "logo": "https://tudominio.com/logo.png",
+                            "url": "https://www.gestorluz.com",
+                            "logo": "https://www.gestorluz.com/logo.png",
                             "address": {
                                 "@type": "PostalAddress",
                                 "addressLocality": "Paita",
@@ -54,13 +54,13 @@ export default function SchemaMarkup() {
                                 "@type": "ListItem",
                                 "position": 1,
                                 "name": "Inicio",
-                                "item": "https://tudominio.com"
+                                "item": "https://www.gestorluz.com"
                             },
                             {
                                 "@type": "ListItem",
                                 "position": 2,
                                 "name": "Calculadora de Luz Perú",
-                                "item": "https://tudominio.com/calculadora-luz"
+                                "item": "https://www.gestorluz.com/PublicLanding"
                             }
                         ]
                     },
