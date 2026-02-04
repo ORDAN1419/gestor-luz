@@ -1,16 +1,11 @@
-// app/components/PublicLanding.tsx
+import CalculadoraLuz from '../components/CalculadoraLuz';
+import SchemaMarkup from '../components/SchemaMarkup';
 
-// 1. Definimos qué tipo de datos recibe (puedes usar 'any' para empezar rápido)
-interface Props {
-  session?: any; 
-}
-
-// 2. Le decimos a la función que use esas Props
-export default function PublicLanding({ session }: Props) { 
-  return (
-    <div>
-      {/* Tu código de la calculadora aquí */}
-      {session ? <p>Hola usuario</p> : <p>Invitado</p>}
-    </div>
-  );
+export default function Page() {
+    return (
+        <>
+            <SchemaMarkup /> {/* Esto ayuda al SEO que vimos antes */}
+            <CalculadoraLuz session={undefined} /> {/* Esto muestra tu calculadora */}
+        </>
+    );
 }

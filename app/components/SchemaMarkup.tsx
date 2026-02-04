@@ -60,7 +60,7 @@ export default function SchemaMarkup() {
                                 "@type": "ListItem",
                                 "position": 2,
                                 "name": "Calculadora de Luz Perú",
-                                "item": "https://www.gestorluz.com/PublicLanding"
+                                "item": "https://www.gestorluz.com/CalculadoraLuz"
                             }
                         ]
                     },
